@@ -1,0 +1,666 @@
+$col: #af9036;
+$bc: #1a1a1a;
+$button: #22b573;
+
+body {
+  background-color: $bc;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+// menu
+
+//background
+
+div.blackBackground {
+  margin-top: 1px;
+}
+
+video#videoBackground {
+  height: 670px;
+}
+
+.gg-Intro {
+  height: 680px;
+  margin-top: -1283px;
+  background-color: rgba(26, 26, 26, 0.9);
+  // background-color: green;
+  z-index: 2;
+  position: relative;
+}
+
+.gg-Intro h1 {
+  padding-top: 50px;
+  margin-top: 600px;
+  font-size: 50px;
+  font-family: poster-gothic-round-cond-atf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+
+.gg-Intro h2 {
+  margin-top: 300px;
+  font-size: 35px;
+  font-family: diazo-mvb-ex-cond, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  color: $col;
+  position: relative;
+  z-index: 3;
+}
+
+.demoLink {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(26, 26, 26, 1);
+  border: 1px solid black;
+  position: relative;
+  z-index: 3;
+}
+
+a.demoLink {
+  width: 100px;
+  display: block;
+  width: 120px;
+}
+
+.demoLink:hover {
+  background-color: rgba(175, 144, 54, 1);
+  transition: ease-in 0.5s;
+}
+
+a.videoLink {
+  text-decoration: none;
+  width: 20px;
+  display: block;
+  height: 20px;
+  margin-top: 5px;
+  padding: 10px 10px 10px 10px;
+  margin-left: -4px;
+}
+
+.videoLink p {
+  font-size: 12px;
+  color: white;
+}
+
+.gg-About h1 {
+  font-size: 60px;
+  font-family: poster-gothic-round-cond-atf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.gg-About h2 {
+  padding: 10px 1px 30px 1px;
+  font-size: 24px;
+  font-family: poster-gothic-round-cond-atf, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.gg-About h3 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  font-family: poster-gothic-round-cond-atf, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.gg-About h4 {
+  padding: 10px 5px 5px 5px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: poster-gothic-round-cond-atf, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.gg-About h5 {
+  padding-top: 1px;
+  padding-bottom: 35px;
+  font-size: 25px;
+  font-family: poster-gothic-round-cond-atf, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+  color: $col;
+}
+
+.gg-Social {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+.gg-Social h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: roboto-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: $col;
+}
+
+.r_text {
+  margin-top: -35px;
+  z-index: 1;
+  position: relative;
+}
+
+.resumeButton {
+  display: block;
+  margin: 0 auto;
+  font-family: roboto-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 150px;
+  height: 50px;
+}
+
+a.resumeFile {
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  margin-left: -8px;
+  margin-top: -15px;
+  z-index: 2;
+  position: relative;
+}
+
+button.resumeButton {
+  border: 1px solid rgba(34, 181, 115, 0.7);
+  background: linear-gradient(
+    to left,
+    rgba(34, 181, 115, 0.7) 50%,
+    rgba(34, 181, 115, 0.9) 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1.5s ease;
+  cursor: pointer;
+}
+
+button.resumeButton:hover {
+  background-position: left bottom;
+  transition: all 1.5s ease;
+}
+
+.gg-Social h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: roboto-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: $col;
+}
+
+.gg-Social h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: roboto-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: $col;
+}
+
+.freelanceButton {
+  display: block;
+  margin: 0 auto;
+  font-family: roboto-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 150px;
+  height: 50px;
+}
+
+button.freelanceButton {
+  border: 1px solid rgba(34, 181, 115, 0.7);
+  background: linear-gradient(
+    to right,
+    rgba(34, 181, 115, 0.7) 50%,
+    rgba(34, 181, 115, 0.9) 50%
+  );
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all 1.5s ease;
+  cursor: pointer;
+}
+
+button.freelanceButton:hover {
+  background-position: right bottom;
+  transition: all 1.5s ease;
+}
+
+img.github_Logo {
+  width: 14%;
+}
+
+img.linkedin_Logo {
+  width: 13%;
+}
+
+.social_Container {
+  margin: 0 auto;
+  display: block;
+}
+
+a.a_github {
+  margin-left: 115px;
+}
+
+a.a_LinkedIn {
+  margin-left: 30px;
+}
+
+div.personal-Note {
+  margin-top: 20px;
+}
+
+.personal-Note h2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: roboto-slab, serif;
+  font-style: italic;
+  font-weight: 700;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  color: white;
+}
+
+.videoGG h1 {
+  color: #af9036;
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.graphicGG h1 {
+  color: #af9036;
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.webGG h1 {
+  color: #af9036;
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.uiuxGG h1 {
+  color: #af9036;
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+button.toggle-Video {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #af9036;
+  border: 1px solid #af9036;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: -30px;
+  margin-left: 300px;
+  z-index: 3;
+  display: block;
+}
+
+button.toggle-Graphic {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #af9036;
+  border: 1px solid #af9036;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: -30px;
+  margin-left: 300px;
+  z-index: 3;
+  display: block;
+}
+
+button.toggle-Web {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #af9036;
+  border: 1px solid #af9036;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: -30px;
+  margin-left: 300px;
+  z-index: 3;
+  display: block;
+}
+
+button.toggle-uiux {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #af9036;
+  border: 1px solid #af9036;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: -30px;
+  margin-left: 300px;
+  z-index: 3;
+  display: block;
+}
+
+.gg-demoReel h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: roboto-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 30px;
+  margin-top: 80px;
+}
+
+iframe.ggdemoReel {
+  margin: 0 auto;
+  display: block;
+  width: 375px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.des_Work h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: roboto-slab, serif;
+  font-weight: 200;
+  font-style: italic;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  margin-top: 25px;
+}
+
+.des_Work h2 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: roboto-slab, serif;
+  font-weight: 200;
+  font-style: italic;
+  padding-bottom: 30px;
+  margin-top: -20px;
+}
+
+/* /video */
+
+.videoGG {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#gg-Video {
+  height: 875px;
+  display: none;
+}
+
+#gg-Video iframe {
+  height: 200px;
+  width: 350px;
+  padding: 10px 5px 5px 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* //graphic */
+
+.graphicGG {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+img#suicune {
+  width: 200px;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1px;
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+  margin: 0 auto;
+}
+
+#gg-Graphic {
+  height: 850px;
+  display: none;
+}
+
+/* web */
+
+.webGG {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#gg-Web {
+  height: 1000px;
+  display: none;
+}
+
+img#webDesign {
+  width: 350px;
+  grid-template-columns: auto auto;
+  margin-left: 3%;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.webContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+button.anglersButton {
+  width: 100%;
+  height: 30px;
+  margin-left: 1.75%;
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+button.musicmixerButton {
+  width: 100%;
+  height: 30px;
+  margin-left: 1.75%;
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+button.chatButton {
+  width: 100%;
+  height: 30px;
+  margin-left: 1.75%;
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+button.ufcButton {
+  width: 100%;
+  height: 30px;
+  margin-left: 1.75%;
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+/* //uiux */
+
+.uiuxGG {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+img#uiux {
+  width: 300px;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1px;
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+  margin: 0 auto;
+}
+
+#gg-uiux {
+  height: 2000px;
+  display: none;
+}
+
+.contact_Me {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  background-color: black;
+  width: 90%;
+  // -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  // -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  // box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  padding-top: 10px;
+}
+
+.contact_Me h1 {
+  font-size: 50px;
+  color: #af9036;
+  padding-bottom: 20px;
+  font-family: roboto-slab, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.contact_Me h3 {
+  font-size: 18px;
+  color: white;
+  padding-bottom: 20px;
+  font-family: roboto-slab, serif;
+  font-style: normal;
+}
+
+.contact_Me h4 {
+  font-size: 18px;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: roboto-slab, serif;
+  font-style: normal;
+}
+
+.contact-button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgba(34, 181, 115, 0.3);
+  border: 1px solid rgba(34, 181, 115, 0.3);
+  border-radius: 2px;
+  font-family: roboto-slab, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.contact-button:hover {
+  background-color: rgba(34, 181, 115, 0.8);
+  transition: ease-in 1s;
+}
+
+.signature {
+  width: 150px;
+  padding-bottom: 10px;
+}
+
+.signOut {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
