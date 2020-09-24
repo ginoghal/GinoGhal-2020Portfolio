@@ -9,27 +9,166 @@ a {
   text-decoration: none;
 }
 
+#menuToggle {
+  display: block;
+  position: fixed;
+  margin-top: 22.5px;
+  left: 2%;
+  z-index: 5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 4;
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block;
+  height: 2.5px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #af9036;
+  border-radius: 3px;
+  z-index: 4;
+  -webkit-transform-origin: 4px 0px;
+          transform-origin: 4px 0px;
+  -webkit-transition: opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+span.span1 {
+  width: 40px;
+}
+
+span.span2 {
+  width: 0px;
+}
+
+span.span3 {
+  width: 40px;
+  margin-top: -5px;
+}
+
+#menuToggle span:first-child {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  -webkit-transform: rotate(60deg) translate(-10px, -10px);
+          transform: rotate(60deg) translate(-10px, -10px);
+  background: black;
+  z-index: 5;
+  position: relative;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  -webkit-transform: rotate(45deg) translate(-10px, -9px);
+          transform: rotate(45deg) translate(-10px, -9px);
+  background: black;
+  z-index: 5;
+  position: relative;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+          transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  -webkit-transform: rotate(-45deg) translate(-2px, -1px);
+          transform: rotate(-45deg) translate(-2px, -1px);
+}
+
+#menu {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 86.5%;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background-color: rgba(237, 237, 237, 0.8);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 15px 0;
+}
+
+#menu a {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-family: arial;
+}
+
+#menuToggle input:checked ~ ul {
+  -webkit-transform: none;
+          transform: none;
+}
+
+#logo img {
+  height: 60px;
+  width: 45px;
+  margin-top: -5px;
+  margin-left: 80%;
+  z-index: 3;
+  position: relative;
+}
+
 div.blackBackground {
   margin-top: 1px;
 }
 
 video#videoBackground {
-  height: 670px;
-  margin: 0 auto;
+  height: 660px;
+  margin: -50px auto;
   display: block;
 }
 
 .gg-Intro {
   height: 680px;
-  margin-top: -1175px;
+  margin-top: -1280px;
   background-color: rgba(26, 26, 26, 0.9);
   z-index: 2;
   position: relative;
 }
 
 .gg-Intro h1 {
-  padding-top: 50px;
-  margin-top: 500px;
+  padding-top: 100px;
+  margin-top: 600px;
   font-size: 50px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
@@ -74,7 +213,7 @@ video#videoBackground {
 }
 
 .gg-Intro h2 {
-  margin-top: 300px;
+  margin-top: 250px;
   font-size: 35px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
@@ -155,7 +294,7 @@ a.videoLink {
   color: white;
 }
 
-.gg-About h1 {
+#gg-About h1 {
   font-size: 50px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
@@ -167,18 +306,19 @@ a.videoLink {
   padding-bottom: 50px;
 }
 
-.gg-About h2 {
+#gg-About h2 {
   padding: 10px 1px 30px 1px;
   font-size: 20px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
   font-style: normal;
   text-align: center;
-  width: 100%;
+  width: 95%;
   color: white;
+  margin: 0 auto;
 }
 
-.gg-About h3 {
+#gg-About h3 {
   padding-top: 15px;
   padding-bottom: 20px;
   font-size: 22px;
@@ -190,9 +330,15 @@ a.videoLink {
   color: white;
 }
 
-.gg-About h4 {
+div.ggdesign {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+}
+
+#gg-About h4 {
   padding: 10px 5px 5px 5px;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 30px;
   font-size: 30px;
   font-family: neue-haas-grotesk-display, sans-serif;
@@ -203,7 +349,7 @@ a.videoLink {
   color: white;
 }
 
-.gg-About h5 {
+#gg-About h5 {
   padding-top: 1px;
   padding-bottom: 35px;
   letter-spacing: 2px;
@@ -537,7 +683,7 @@ iframe.ggdemoReel {
   padding-bottom: 5px;
 }
 
-.des_Work h1 {
+#des_Work h1 {
   color: white;
   font-size: 20px;
   text-align: center;
@@ -549,7 +695,7 @@ iframe.ggdemoReel {
   margin-top: 25px;
 }
 
-.des_Work h2 {
+#des_Work h2 {
   color: white;
   font-size: 20px;
   text-align: center;
@@ -702,7 +848,7 @@ img#uiux {
   display: none;
 }
 
-.contact_Me {
+#contact_Me {
   display: block;
   margin: 200px auto;
   text-align: center;
@@ -711,7 +857,7 @@ img#uiux {
   padding-top: 10px;
 }
 
-.contact_Me h1 {
+#contact_Me h1 {
   color: white;
   padding-bottom: 30px;
   font-size: 42px;
@@ -721,7 +867,7 @@ img#uiux {
   margin-top: -100px;
 }
 
-.contact_Me h3 {
+#contact_Me h3 {
   font-size: 18px;
   color: white;
   padding-bottom: 20px;
@@ -731,7 +877,7 @@ img#uiux {
   margin-top: 30px;
 }
 
-.contact_Me h4 {
+#contact_Me h4 {
   font-size: 18px;
   color: white;
   padding-bottom: 20px;

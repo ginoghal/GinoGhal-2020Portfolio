@@ -11,6 +11,29 @@
   </head>
   <body>
 
+    <header>
+      <nav role="navigation">
+        <div id="menuToggle">
+
+          <input id="closeIcon" type="checkbox" />
+
+          <span class="span1"></span>
+          <span class="span2"></span>
+          <span class="span3"></span>
+
+          <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#gg-About">About</a></li>
+      <li><a href="#des_Work">Portfolio</a></li>
+      <li><a href="#contact_Me">Contact</a></li>
+      </ul>
+      </nav>
+    </ndiv>
+      <div id="logo">
+      <a href="#"><img src="./public/images/Glogo.svg" alt="logo"></a>
+    </div>
+    </header>
+
 <div class="blackBackground">
     <video autoplay muted loop id="videoBackground">
       <source src="./public/images/background-Dummy.mp4" type="video/mp4">
@@ -18,17 +41,18 @@
     </div>
     <div class="gg-Intro">
       <h1>Gino Ghalehpardaz</h1>
-      <h2>Web Developer, Multimedia Designer Marketing Specialist.</h2>
+      <h2>Web Developer Multimedia Designer Marketing Specialist.</h2>
       <button class="demoLink"><a class="videoLink" href="#demoReel"><p>V</p></a></button>
     </div>
 
-    <div class="gg-About">
+    <div id="gg-About">
       <h1><span style="color: #af9036">... </span>ABOUT ME<span style="color: #af9036"> ...</span></h1>
       <h2>I AM A WEB DEVELOPER, MULTIMEDIA DESIGNER AND MARKETING SPECIALIST</h2>
       <h3>
         I AM A RECENT GRADUATE FROM <span style="color: #e2231a">FANSHAWE COLLEGE</span> FROM THE INTERACTIVE MEDIA
         DESIGN PROGRAM
       </h3>
+      <div class="ggdesign"><img src="./public/images/ggdesign1.svg" alt="ggdesign1"></div>
       <h4>I SPECIALIZE IN:</h4>
       <h5>
         •FRONT END DEVELOPPMENT <br />•UI/UX DESIGN <br />•MULTIMEDIA DESIGN <br> •LOGO DESIGN
@@ -77,7 +101,7 @@
         <iframe class="ggdemoReel" src="https://www.youtube.com/embed/iwJ3GUDbla8"></iframe>
     </div>
 
-    <div class="des_Work"><h1>Here is some of the work I have done:</h1>
+    <div id="des_Work"><h1>Here is some of the work I have done:</h1>
   <h2>(Click the arrows to view!)</h2></div>
 
     <div class="videoGG">
@@ -152,9 +176,9 @@
       <button class="toggle-uiux" onclick="uiClick()">></button>
       <div class="uiuxContainer">
         <div id="gg-uiux">
-          <h2>Pokemon</h2>
+          <h2>Pokemon Let's Go Site Redesign</h2>
           <img src="./public/images/pokemonuiux.jpg" id="uiux" />
-          <h2>Maple Leafs</h2>
+          <h2>MapleLeafs.com Website Redesign</h2>
           <img src="./public/images/mapleleafsredesign.jpg" id="uiux" />
           <h2>Pokemon</h2>
           <img src="./public/images/pokemonuiux.jpg" id="uiux" />
@@ -164,7 +188,7 @@
       </div>
     </div>
 
-    <div class="contact_Me">
+    <div id="contact_Me">
       <h1><span style="color: #af9036">... </span>CONTACT ME<span style="color: #af9036"> ...</span></h1>
       <h3>
         Contact me for all of your multimedia and digital marketing needs!

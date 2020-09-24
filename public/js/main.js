@@ -1,9 +1,20 @@
+// var menu = document.getElementById("menu");
+// var closeIcon = document.getElementById("closeIcon");
+
+// menu.addEventListener("click", handleMenuClick);
+
+// function handleMenuClick(event) {
+//   if (event.target instanceof HTMLAnchorElement) {
+//     closeIcon.checked = false;
+//   }
+// }
+
 var menu = document.getElementById("menu");
 var closeIcon = document.getElementById("closeIcon");
 
-menu.addEventListener("click", handleMenuClick);
+menu.addEventListener("click", handleMenu);
 
-function handleMenuClick(event) {
+function handleMenu(event) {
   if (event.target instanceof HTMLAnchorElement) {
     closeIcon.checked = false;
   }
