@@ -36,8 +36,8 @@ video#videoBackground {
   color: white;
   position: relative;
   z-index: 3;
-  -webkit-animation: fadeInTitle ease 5s, move 4s linear;
-  animation: fadeInTitle ease 5s, move 4s linear;
+  -webkit-animation: fadeInTitle ease 5s, move 5s linear;
+  animation: fadeInTitle ease 5s, move 5s linear;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
