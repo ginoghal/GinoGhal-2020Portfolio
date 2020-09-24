@@ -6,6 +6,7 @@ html,
 body {
   background-color: $bc;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -200,10 +201,10 @@ a.videoLink {
 .gg-About h5 {
   padding-top: 1px;
   padding-bottom: 35px;
-  font-size: 25px;
-  font-family: poster-gothic-round-cond-atf, sans-serif;
-  font-weight: 200;
-  font-style: italic;
+  font-size: 20px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   text-align: center;
   width: 75%;
   margin: 0 auto;
@@ -469,10 +470,10 @@ button.toggle-uiux {
 
 .gg-demoReel h1 {
   color: white;
-  font-size: 30px;
   text-align: center;
-  font-family: roboto-slab, serif;
-  font-weight: 700;
+  font-size: 40px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
   padding-bottom: 30px;
   margin-top: 80px;
@@ -490,9 +491,9 @@ iframe.ggdemoReel {
   color: white;
   font-size: 20px;
   text-align: center;
-  font-family: roboto-slab, serif;
-  font-weight: 200;
-  font-style: italic;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   padding-bottom: 30px;
   padding-top: 10px;
   margin-top: 25px;
@@ -500,10 +501,10 @@ iframe.ggdemoReel {
 
 .des_Work h2 {
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
-  font-family: roboto-slab, serif;
-  font-weight: 200;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 400;
   font-style: italic;
   padding-bottom: 30px;
   margin-top: -20px;
@@ -650,7 +651,7 @@ img#uiux {
 
 .contact_Me {
   display: block;
-  margin: 20px auto;
+  margin: 150px auto;
   text-align: center;
   background-color: black;
   width: 90%;
@@ -661,20 +662,23 @@ img#uiux {
 }
 
 .contact_Me h1 {
-  font-size: 50px;
-  color: #af9036;
-  padding-bottom: 20px;
-  font-family: roboto-slab, serif;
+  color: white;
+  padding-bottom: 30px;
+  font-size: 42px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
-  font-weight: 700;
+  margin-top: -100px;
 }
 
 .contact_Me h3 {
   font-size: 18px;
   color: white;
   padding-bottom: 20px;
+  padding-top: 10px;
   font-family: roboto-slab, serif;
   font-style: normal;
+  margin-top: 30px;
 }
 
 .contact_Me h4 {
@@ -715,4 +719,5 @@ img#uiux {
   font-style: italic;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: -115px;
 }
