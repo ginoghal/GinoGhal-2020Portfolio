@@ -1,3 +1,4 @@
+html,
 body {
   background-color: #1a1a1a;
   overflow-x: hidden;
@@ -27,8 +28,8 @@ video#videoBackground {
   padding-top: 50px;
   margin-top: 600px;
   font-size: 50px;
-  font-family: poster-gothic-round-cond-atf, sans-serif;
-  font-weight: 400;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
   text-align: center;
   color: white;
@@ -39,8 +40,8 @@ video#videoBackground {
 .gg-Intro h2 {
   margin-top: 300px;
   font-size: 35px;
-  font-family: diazo-mvb-ex-cond, sans-serif;
-  font-weight: 300;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
   text-align: center;
   width: 100%;
@@ -58,9 +59,37 @@ video#videoBackground {
   cursor: pointer;
   color: white;
   background-color: #1a1a1a;
-  border: 1px solid black;
+  border: 1px solid #1a1a1a;
   position: relative;
   z-index: 3;
+  -webkit-animation: moving 10s linear infinite, blink 3s ease-in infinite alternate;
+  animation: moving 10s linear infinite, blink 3s ease-in infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border: 1px solid #af9036;
+  }
+}
+
+@-webkit-keyframes moving {
+  0%,
+  100% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: -30px;
+  }
+}
+
+@keyframes moving {
+  0%,
+  100% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: -30px;
+  }
 }
 
 a.demoLink {
@@ -91,9 +120,9 @@ a.videoLink {
 }
 
 .gg-About h1 {
-  font-size: 60px;
-  font-family: poster-gothic-round-cond-atf, sans-serif;
-  font-weight: 400;
+  font-size: 50px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
   text-align: center;
   width: 100%;
@@ -104,9 +133,9 @@ a.videoLink {
 
 .gg-About h2 {
   padding: 10px 1px 30px 1px;
-  font-size: 24px;
-  font-family: poster-gothic-round-cond-atf, sans-serif;
-  font-weight: 300;
+  font-size: 20px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
   text-align: center;
   width: 100%;
@@ -117,8 +146,8 @@ a.videoLink {
   padding-top: 15px;
   padding-bottom: 20px;
   font-size: 22px;
-  font-family: poster-gothic-round-cond-atf, sans-serif;
-  font-weight: 300;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
   text-align: center;
   width: 100%;
@@ -129,9 +158,9 @@ a.videoLink {
   padding: 10px 5px 5px 5px;
   margin-top: 100px;
   margin-bottom: 30px;
-  font-size: 50px;
-  font-family: poster-gothic-round-cond-atf, sans-serif;
-  font-weight: 200;
+  font-size: 30px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
   font-style: normal;
   text-align: center;
   width: 100%;
