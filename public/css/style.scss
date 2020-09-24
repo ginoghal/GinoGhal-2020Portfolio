@@ -27,16 +27,15 @@ video#videoBackground {
 
 .gg-Intro {
   height: 680px;
-  margin-top: -1283px;
+  margin-top: -1175px;
   background-color: rgba(26, 26, 26, 0.9);
-  // background-color: green;
   z-index: 2;
   position: relative;
 }
 
 .gg-Intro h1 {
   padding-top: 50px;
-  margin-top: 600px;
+  margin-top: 500px;
   font-size: 50px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
@@ -45,29 +44,38 @@ video#videoBackground {
   color: white;
   position: relative;
   z-index: 3;
-  // -webkit-animation: moving 15s linear infinite;
-  // animation: moving 15s linear infinite;
+  -webkit-animation: fadeInTitle ease 5s, move 4s linear;
+  animation: fadeInTitle ease 5s, move 4s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-// @-webkit-keyframes moving {
-//   0%,
-//   100% {
-//     bottom: 0px;
-//   }
-//   50% {
-//     bottom: -20px;
-//   }
-// }
+@-webkit-keyframes move {
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 20px;
+  }
+}
 
-// @keyframes moving {
-//   0%,
-//   100% {
-//     bottom: 0px;
-//   }
-//   50% {
-//     bottom: -20px;
-//   }
-// }
+@-webkit-keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .gg-Intro h2 {
   margin-top: 300px;
