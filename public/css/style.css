@@ -15,6 +15,8 @@ div.blackBackground {
 
 video#videoBackground {
   height: 670px;
+  margin: 0 auto;
+  display: block;
 }
 
 .gg-Intro {
@@ -204,12 +206,13 @@ a.videoLink {
 .gg-About h5 {
   padding-top: 1px;
   padding-bottom: 35px;
+  letter-spacing: 2px;
   font-size: 20px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
   font-style: normal;
   text-align: center;
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   display: block;
   color: #af9036;
@@ -377,9 +380,19 @@ div.personal-Note {
   font-family: hero-new, sans-serif;
   font-weight: 400;
   font-style: italic;
-  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
+}
+
+.videoGG h2 {
+  color: #af9036;
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .graphicGG h1 {
@@ -392,6 +405,17 @@ div.personal-Note {
   padding-left: 5px;
 }
 
+.graphicGG h2 {
+  color: #af9036;
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
 .webGG h1 {
   color: #af9036;
   font-size: 20px;
@@ -402,6 +426,17 @@ div.personal-Note {
   padding-left: 5px;
 }
 
+.webGG h2 {
+  color: #af9036;
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
 .uiuxGG h1 {
   color: #af9036;
   font-size: 20px;
@@ -410,6 +445,17 @@ div.personal-Note {
   font-style: italic;
   padding-bottom: 10px;
   padding-left: 5px;
+}
+
+.uiuxGG h2 {
+  color: #af9036;
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 button.toggle-Video {
@@ -521,7 +567,7 @@ iframe.ggdemoReel {
 }
 
 #gg-Video {
-  height: 875px;
+  height: 1100px;
   display: none;
 }
 
@@ -553,7 +599,7 @@ img#suicune {
 }
 
 #gg-Graphic {
-  height: 850px;
+  height: 1100px;
   display: none;
 }
 
@@ -564,7 +610,7 @@ img#suicune {
 }
 
 #gg-Web {
-  height: 1000px;
+  height: 1250px;
   display: none;
 }
 
@@ -658,7 +704,7 @@ img#uiux {
 
 .contact_Me {
   display: block;
-  margin: 150px auto;
+  margin: 200px auto;
   text-align: center;
   background-color: black;
   width: 90%;
@@ -724,6 +770,6 @@ img#uiux {
   font-style: italic;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-top: -115px;
+  margin-top: -170px;
 }
 /*# sourceMappingURL=style.css.map */
