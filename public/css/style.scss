@@ -17,7 +17,7 @@ a {
 
 #menuToggle {
   display: block;
-  position: relative;
+  position: fixed;
   margin-top: 22.5px;
   left: 2%;
   z-index: 5;
@@ -133,7 +133,7 @@ span.span3 {
 #logo img {
   height: 60px;
   width: 45px;
-  margin-top: -40px;
+  margin-top: -5px;
   margin-left: 80%;
   z-index: 3;
   position: relative;
@@ -147,14 +147,14 @@ div.blackBackground {
 }
 
 video#videoBackground {
-  height: 670px;
-  margin: -70px auto;
+  height: 660px;
+  margin: -50px auto;
   display: block;
 }
 
 .gg-Intro {
   height: 680px;
-  margin-top: -1175px;
+  margin-top: -1280px;
   background-color: rgba(26, 26, 26, 0.9);
   z-index: 2;
   position: relative;
@@ -162,7 +162,7 @@ video#videoBackground {
 
 .gg-Intro h1 {
   padding-top: 100px;
-  margin-top: 500px;
+  margin-top: 600px;
   font-size: 50px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
