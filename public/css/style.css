@@ -98,8 +98,8 @@ span.span3 {
 }
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
-  -webkit-transform: rotate(-45deg) translate(-2px, -1px);
-          transform: rotate(-45deg) translate(-2px, -1px);
+  -webkit-transform: rotate(-45deg) translate(-2px, 0px);
+          transform: rotate(-45deg) translate(-2px, 0px);
 }
 
 #menu {
@@ -131,7 +131,10 @@ span.span3 {
   display: block;
   text-align: center;
   font-size: 25px;
-  font-family: arial;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
 }
 
 #menuToggle input:checked ~ ul {
@@ -142,14 +145,14 @@ span.span3 {
 #logo img {
   height: 60px;
   width: 45px;
-  margin-top: -5px;
+  margin-top: 1px;
   margin-left: 80%;
   z-index: 3;
-  position: relative;
+  position: fixed;
 }
 
 div.blackBackground {
-  margin-top: 1px;
+  margin-top: 65px;
 }
 
 video#videoBackground {
@@ -183,6 +186,10 @@ video#videoBackground {
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+
+.gg-Intro h1 {
+  text-align: center;
 }
 
 @-webkit-keyframes move {
