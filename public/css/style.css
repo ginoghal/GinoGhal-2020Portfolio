@@ -156,7 +156,6 @@ span.span3 {
 #logo img {
   height: 9%;
   width: 12%;
-  margin-top: -1px;
   margin-left: 80%;
   z-index: 3;
   position: fixed;
@@ -478,6 +477,23 @@ button.resumeButton:hover {
   font-style: normal;
   width: 150px;
   height: 50px;
+}
+
+.freelanceButton p {
+  font-family: roboto-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: -35px;
+}
+
+a.freelanceLink {
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  margin-left: -8px;
+  margin-top: -20px;
+  z-index: 2;
+  position: relative;
 }
 
 button.freelanceButton {
@@ -932,5 +948,14 @@ img#uiux {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: -170px;
+}
+
+.freelance_Work h1 {
+  color: white;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
 }
 /*# sourceMappingURL=style.css.map */
