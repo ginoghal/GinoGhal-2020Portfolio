@@ -139,6 +139,17 @@ span.span3 {
   color: black;
 }
 
+#menu a:hover {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: $button;
+  transition: 0.5s ease-in;
+}
+
 #menuToggle input:checked ~ ul {
   transform: none;
 }
