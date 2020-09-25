@@ -15,10 +15,19 @@ a {
 
 // menu
 
+.hContainer {
+  background-color: rgba(26, 26, 26, 0.9);
+  width: 100%;
+  height: 55px;
+  margin-top: -7px;
+  z-index: 3;
+  position: fixed;
+}
+
 #menuToggle {
   display: block;
   position: fixed;
-  margin-top: 22.5px;
+  margin-top: 25px;
   left: 2%;
   z-index: 5;
   -webkit-user-select: none;
@@ -75,7 +84,7 @@ span.span3 {
 
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(60deg) translate(-10px, -10px);
+  transform: rotate(45deg) translate(-10px, -10px);
   background: black;
   z-index: 5;
   position: relative;
@@ -83,10 +92,11 @@ span.span3 {
 
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(45deg) translate(-10px, -9px);
+  transform: rotate(45deg) translate(-10px, -10px);
   background: black;
   z-index: 5;
   position: relative;
+  margin-top: 2px;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -96,6 +106,7 @@ span.span3 {
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(-2px, 0px);
+  margin-top: -5px;
 }
 
 #menu {
@@ -134,13 +145,12 @@ span.span3 {
 
 //logo
 #logo img {
-  height: 60px;
-  width: 45px;
+  height: 9%;
+  width: 12%;
   margin-top: 1px;
   margin-left: 80%;
   z-index: 3;
   position: fixed;
-  // position: fixed;
 }
 
 //background
