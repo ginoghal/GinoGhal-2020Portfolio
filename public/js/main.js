@@ -9,6 +9,8 @@
 //   }
 // }
 
+AOS.init({ duration: 1500 });
+
 var menu = document.getElementById("menu");
 var closeIcon = document.getElementById("closeIcon");
 
