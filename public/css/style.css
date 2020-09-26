@@ -333,9 +333,13 @@ a.videoLink {
   padding-bottom: 50px;
 }
 
+span.aboutSpan {
+  font-weight: 100;
+}
+
 #gg-About h2 {
   padding: 10px 1px 30px 1px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -346,8 +350,8 @@ a.videoLink {
 }
 
 #gg-About h3 {
-  padding: 10px 1px 30px 1px;
-  font-size: 20px;
+  padding: 50px 1px 30px 1px;
+  font-size: 18px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -359,12 +363,12 @@ a.videoLink {
 
 div.ggdesign {
   width: 90%;
-  margin: 10px auto;
+  margin: 50px auto;
   display: block;
 }
 
 #gg-About h4 {
-  padding: 10px 5px 5px 5px;
+  padding: 30px 5px 5px 5px;
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 30px;
@@ -384,7 +388,7 @@ div.ggdesign {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
   font-style: normal;
-  text-align: center;
+  text-align: italic;
   width: 90%;
   margin: 0 auto;
   display: block;
@@ -392,7 +396,7 @@ div.ggdesign {
 }
 
 .gg-Social {
-  margin-top: 10px;
+  margin-top: 70px;
   padding-bottom: 10px;
   background-color: black;
 }
@@ -894,7 +898,7 @@ img#uiux {
 
 #contact_Me {
   display: block;
-  margin: 200px auto;
+  margin: 175px auto;
   text-align: center;
   background-color: black;
   width: 90%;
