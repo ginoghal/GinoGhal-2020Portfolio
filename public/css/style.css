@@ -1003,7 +1003,7 @@ a.a_LinkedIn {
   }
   .gg-Intro {
     height: 680px;
-    margin-top: -1285px;
+    margin-top: -1280px;
     background-color: rgba(26, 26, 26, 0.9);
     z-index: 2;
     position: relative;
@@ -1208,7 +1208,7 @@ a.a_LinkedIn {
   }
   .videoGG h1 {
     color: #af9036;
-    font-size: 35px;
+    font-size: 25px;
     font-family: hero-new, sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -1227,7 +1227,7 @@ a.a_LinkedIn {
   }
   .graphicGG h1 {
     color: #af9036;
-    font-size: 35px;
+    font-size: 25px;
     font-family: hero-new, sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -1246,7 +1246,7 @@ a.a_LinkedIn {
   }
   .webGG h1 {
     color: #af9036;
-    font-size: 35px;
+    font-size: 25px;
     font-family: hero-new, sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -1265,7 +1265,7 @@ a.a_LinkedIn {
   }
   .uiuxGG h1 {
     color: #af9036;
-    font-size: 35px;
+    font-size: 25px;
     font-family: hero-new, sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -1503,20 +1503,18 @@ a.a_LinkedIn {
   }
   .gg-Social {
     margin-top: 70px;
-    margin-left: -35px;
     padding-bottom: 10px;
     background-color: black;
   }
   .gg-Social h1 {
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 75px;
     font-family: roboto-slab, serif;
     font-weight: 700;
     font-style: normal;
     color: white;
     font-size: 25px;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
     -webkit-text-decoration-color: #af9036;
             text-decoration-color: #af9036;
@@ -1528,7 +1526,7 @@ a.a_LinkedIn {
   }
   .resumeButton {
     display: block;
-    margin-left: 75px;
+    margin: 0 auto;
     font-family: roboto-slab, serif;
     font-weight: 700;
     font-style: normal;
@@ -1545,7 +1543,6 @@ a.a_LinkedIn {
     position: relative;
   }
   button.resumeButton {
-    margin-left: 50px;
     border: 1px solid rgba(34, 181, 115, 0.7);
     background: -webkit-gradient(linear, right top, left top, color-stop(50%, rgba(34, 181, 115, 0.7)), color-stop(50%, rgba(34, 181, 115, 0.9)));
     background: linear-gradient(to left, rgba(34, 181, 115, 0.7) 50%, rgba(34, 181, 115, 0.9) 50%);
@@ -1561,9 +1558,8 @@ a.a_LinkedIn {
     transition: all 1.5s ease;
   }
   .gg-Social h2 {
-    padding-top: 1px;
+    padding-top: 20px;
     padding-bottom: 10px;
-    margin-top: -85px;
     font-family: roboto-slab, serif;
     font-weight: 700;
     font-style: normal;
@@ -1584,13 +1580,8 @@ a.a_LinkedIn {
     font-size: 25px;
     text-align: center;
     text-decoration: underline;
-    -webkit-text-decoration-color: currentcolor;
-            text-decoration-color: currentcolor;
-    text-decoration-color: currentcolor;
     -webkit-text-decoration-color: #af9036;
-    text-decoration-color: #af9036;
-    margin-top: -112px;
-    margin-right: -60%;
+            text-decoration-color: #af9036;
   }
   .freelanceButton {
     display: block;
@@ -1617,7 +1608,6 @@ a.a_LinkedIn {
     position: relative;
   }
   button.freelanceButton {
-    margin-right: 80px;
     border: 1px solid rgba(34, 181, 115, 0.7);
     background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(34, 181, 115, 0.7)), color-stop(50%, rgba(34, 181, 115, 0.9)));
     background: linear-gradient(to right, rgba(34, 181, 115, 0.7) 50%, rgba(34, 181, 115, 0.9) 50%);
@@ -1639,12 +1629,12 @@ a.a_LinkedIn {
   img.linkedin_Logo {
     width: 6%;
   }
+  a.a_github {
+    margin-left: 40%;
+  }
   .social_Container {
     margin: 0 auto;
     display: block;
-  }
-  a.a_github {
-    margin-left: 40%;
   }
   a.a_LinkedIn {
     margin-left: 30px;
