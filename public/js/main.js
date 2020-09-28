@@ -47,4 +47,4 @@ function uiClick() {
   }
 }
 
-AOS.refresh();
+// AOS.refresh();
