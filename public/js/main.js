@@ -46,3 +46,5 @@ function uiClick() {
     u.style.display = "block";
   }
 }
+
+AOS.refresh();
