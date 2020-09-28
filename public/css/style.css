@@ -3,6 +3,7 @@ body {
   background-color: #1a1a1a;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 a {
@@ -1707,7 +1708,7 @@ a.a_LinkedIn {
 @media only screen and (min-device-width: 900px) {
   .hContainer {
     background-color: rgba(26, 26, 26, 0.9);
-    width: 100%;
+    width: 98.9%;
     height: 8%;
     margin-top: -7px;
     z-index: 3;
