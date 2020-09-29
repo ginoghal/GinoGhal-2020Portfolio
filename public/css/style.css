@@ -607,6 +607,7 @@ iframe.ggdemoReel {
 #gg-Video {
   height: 100%;
   display: none;
+  background-color: black;
 }
 
 #gg-Video iframe {
@@ -639,6 +640,7 @@ img#suicune {
 #gg-Graphic {
   height: 100%;
   display: none;
+  background-color: black;
 }
 
 /* web */
@@ -666,6 +668,7 @@ img#webDesign {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+  background-color: black;
 }
 
 button.anglersButton {
@@ -738,6 +741,7 @@ img#uiux {
 #gg-uiux {
   height: 100%;
   display: none;
+  background-color: black;
 }
 
 .gg-Social {
@@ -1384,6 +1388,7 @@ a.a_LinkedIn {
   #gg-Video {
     height: 100%;
     display: none;
+    background-color: black;
   }
   #gg-Video iframe {
     height: 200px;
@@ -1412,6 +1417,7 @@ a.a_LinkedIn {
   #gg-Graphic {
     height: 100%;
     display: none;
+    background-color: black;
   }
   /* web */
   .webGG {
@@ -1435,6 +1441,7 @@ a.a_LinkedIn {
     display: grid;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
+    background-color: black;
   }
   button.anglersButton {
     width: 100%;
@@ -1500,6 +1507,7 @@ a.a_LinkedIn {
   #gg-uiux {
     height: 100%;
     display: none;
+    background-color: black;
   }
   .gg-Social {
     margin-top: 70px;
@@ -2121,6 +2129,7 @@ a.a_LinkedIn {
   #gg-Video {
     height: 100%;
     display: none;
+    background-color: black;
   }
   #gg-Video iframe {
     height: 300px;
@@ -2262,6 +2271,7 @@ a.a_LinkedIn {
   #gg-Graphic {
     height: 100%;
     display: none;
+    background-color: black;
   }
   /* web */
   .webGG {
@@ -2286,6 +2296,7 @@ a.a_LinkedIn {
     display: grid;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
+    background-color: black;
   }
   button.anglersButton {
     width: 96%;
@@ -2351,6 +2362,7 @@ a.a_LinkedIn {
   #gg-uiux {
     height: 100%;
     display: none;
+    background-color: black;
   }
   .gg-Social {
     margin-top: 70px;
