@@ -607,7 +607,6 @@ iframe.ggdemoReel {
 #gg-Video {
   height: 100%;
   display: none;
-  background-color: black;
 }
 
 #gg-Video iframe {
@@ -640,7 +639,6 @@ img#suicune {
 #gg-Graphic {
   height: 100%;
   display: none;
-  background-color: black;
 }
 
 /* web */
@@ -668,7 +666,6 @@ img#webDesign {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
-  background-color: black;
 }
 
 button.anglersButton {
@@ -741,7 +738,6 @@ img#uiux {
 #gg-uiux {
   height: 100%;
   display: none;
-  background-color: black;
 }
 
 .gg-Social {
@@ -1388,7 +1384,6 @@ a.a_LinkedIn {
   #gg-Video {
     height: 100%;
     display: none;
-    background-color: black;
   }
   #gg-Video iframe {
     height: 200px;
@@ -1417,7 +1412,6 @@ a.a_LinkedIn {
   #gg-Graphic {
     height: 100%;
     display: none;
-    background-color: black;
   }
   /* web */
   .webGG {
@@ -1430,23 +1424,19 @@ a.a_LinkedIn {
   }
   img#webDesign {
     width: 350px;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    margin-left: 3%;
     padding-top: 10px;
     padding-bottom: 7px;
+    margin: 0 auto;
+    display: block;
   }
   .webContainer {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    background-color: black;
+    display: block;
+    margin: 0 auto;
   }
   button.anglersButton {
-    width: 100%;
+    width: 50%;
     height: 30px;
-    margin-left: 1.75%;
+    margin: 0 auto;
     display: block;
     cursor: pointer;
     color: white;
@@ -1455,9 +1445,9 @@ a.a_LinkedIn {
     border: 1px solid black;
   }
   button.musicmixerButton {
-    width: 100%;
+    width: 50%;
     height: 30px;
-    margin-left: 1.75%;
+    margin: 0 auto;
     display: block;
     cursor: pointer;
     color: white;
@@ -1466,9 +1456,9 @@ a.a_LinkedIn {
     border: 1px solid black;
   }
   button.chatButton {
-    width: 100%;
+    width: 50%;
     height: 30px;
-    margin-left: 1.75%;
+    margin: 0 auto;
     display: block;
     cursor: pointer;
     color: white;
@@ -1477,9 +1467,9 @@ a.a_LinkedIn {
     border: 1px solid black;
   }
   button.ufcButton {
-    width: 100%;
+    width: 50%;
     height: 30px;
-    margin-left: 1.75%;
+    margin: 0 auto;
     display: block;
     cursor: pointer;
     color: white;
@@ -1507,7 +1497,6 @@ a.a_LinkedIn {
   #gg-uiux {
     height: 100%;
     display: none;
-    background-color: black;
   }
   .gg-Social {
     margin-top: 70px;
@@ -2129,7 +2118,6 @@ a.a_LinkedIn {
   #gg-Video {
     height: 100%;
     display: none;
-    background-color: black;
   }
   #gg-Video iframe {
     height: 300px;
@@ -2271,7 +2259,6 @@ a.a_LinkedIn {
   #gg-Graphic {
     height: 100%;
     display: none;
-    background-color: black;
   }
   /* web */
   .webGG {
@@ -2296,7 +2283,6 @@ a.a_LinkedIn {
     display: grid;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
-    background-color: black;
   }
   button.anglersButton {
     width: 96%;
@@ -2362,7 +2348,6 @@ a.a_LinkedIn {
   #gg-uiux {
     height: 100%;
     display: none;
-    background-color: black;
   }
   .gg-Social {
     margin-top: 70px;
