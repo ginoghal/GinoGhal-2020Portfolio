@@ -1825,7 +1825,7 @@ a.a_LinkedIn {
   }
 
   span.span1 {
-    width: 40px;
+    width: 30px;
   }
 
   span.span2 {
@@ -1833,8 +1833,8 @@ a.a_LinkedIn {
   }
 
   span.span3 {
-    width: 40px;
-    margin-top: -5px;
+    width: 30px;
+    margin-top: -7px;
   }
 
   #menuToggle span:first-child {
@@ -1847,7 +1847,7 @@ a.a_LinkedIn {
 
   #menuToggle input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg) translate(-10px, -10px);
+    transform: rotate(-55deg) translate(-2px, 0px);
     background: black;
     z-index: 5;
     position: relative;
@@ -1855,7 +1855,7 @@ a.a_LinkedIn {
 
   #menuToggle input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg) translate(-10px, -10px);
+    transform: rotate(45deg) translate(-5px, -4px);
     background: black;
     z-index: 5;
     position: relative;
