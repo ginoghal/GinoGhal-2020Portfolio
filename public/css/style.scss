@@ -2008,25 +2008,24 @@ a.a_LinkedIn {
   }
 
   .gg-Intro h2 {
-    margin-top: 250px;
-    // font-size: 40px;
+    margin: 250px auto;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
     font-style: normal;
     text-align: center;
-    // width: 30%;
     font-size: 60px;
-    width: 48%;
+    width: 600px;
     color: $col;
     position: relative;
     z-index: 3;
+    display: block;
   }
 
   .demoLink {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin: -250px auto;
+    margin: -240px auto;
     display: block;
     cursor: pointer;
     color: white;
@@ -2467,7 +2466,7 @@ a.a_LinkedIn {
   }
 
   img#uiux {
-    width: 300px;
+    width: 400px;
     height: auto;
     display: grid;
     grid-template-columns: auto auto;

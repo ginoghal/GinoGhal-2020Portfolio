@@ -1921,22 +1921,23 @@ a.a_LinkedIn {
     }
   }
   .gg-Intro h2 {
-    margin-top: 250px;
+    margin: 250px auto;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
     font-style: normal;
     text-align: center;
     font-size: 60px;
-    width: 48%;
+    width: 600px;
     color: #af9036;
     position: relative;
     z-index: 3;
+    display: block;
   }
   .demoLink {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin: -250px auto;
+    margin: -240px auto;
     display: block;
     cursor: pointer;
     color: white;
@@ -2334,7 +2335,7 @@ a.a_LinkedIn {
     padding-bottom: 20px;
   }
   img#uiux {
-    width: 300px;
+    width: 400px;
     height: auto;
     display: -ms-grid;
     display: grid;
