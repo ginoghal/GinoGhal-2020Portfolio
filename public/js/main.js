@@ -47,4 +47,28 @@ function uiClick() {
   }
 }
 
+var i = 0;
+var images = [];
+var time = 2000;
+
+images[0] = "./public/images/boxingring.jpg";
+images[1] = "./public/images/BasketballNetCinema4D.jpg";
+images[2] = "./public/images/MapleLeafsMug2.jpg";
+images[3] = "./public/images/pokeball2.jpg";
+images[4] = "./public/images/SoccerNet.jpg";
+images[5] = "./public/images/CanFlag.jpg";
+
+function changeImg() {
+  document.slide.src = images[i];
+
+  if (i < images.length - 1) {
+    i++;
+  } else {
+    i = 0;
+  }
+  setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+
 // AOS.refresh();
