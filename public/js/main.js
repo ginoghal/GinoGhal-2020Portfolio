@@ -13,37 +13,37 @@ function handleMenu(event) {
 
 function videoClick() {
   var v = document.getElementById("gg-Video");
-  if (v.style.display === "block") {
+  if (v.style.display === "grid") {
     v.style.display = "none";
   } else {
-    v.style.display = "block";
+    v.style.display = "grid";
   }
 }
 
 function graphicClick() {
   var g = document.getElementById("gg-Graphic");
-  if (g.style.display === "block") {
+  if (g.style.display === "grid") {
     g.style.display = "none";
   } else {
-    g.style.display = "block";
+    g.style.display = "grid";
   }
 }
 
 function webClick() {
   var w = document.getElementById("gg-Web");
-  if (w.style.display === "block") {
+  if (w.style.display === "grid") {
     w.style.display = "none";
   } else {
-    w.style.display = "block";
+    w.style.display = "grid";
   }
 }
 
 function uiClick() {
   var u = document.getElementById("gg-uiux");
-  if (u.style.display === "block") {
+  if (u.style.display === "grid") {
     u.style.display = "none";
   } else {
-    u.style.display = "block";
+    u.style.display = "grid";
   }
 }
 

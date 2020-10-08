@@ -602,6 +602,7 @@ iframe.ggdemoReel {
 #gg-Video {
   height: 100%;
   display: none;
+  grid-template-columns: auto;
 }
 
 #gg-Video iframe {
@@ -609,7 +610,7 @@ iframe.ggdemoReel {
   width: 350px;
   padding: 10px 5px 5px 5px;
   margin: 0 auto;
-  display: block;
+  display: grid;
 }
 
 /* //graphic */
@@ -623,7 +624,6 @@ img#suicune {
   width: 300px;
   height: auto;
   display: grid;
-  grid-template-columns: auto auto;
   padding: 1px;
   margin: 0 auto;
   padding: 5px 5px 5px 5px;
@@ -633,6 +633,7 @@ img#suicune {
 #gg-Graphic {
   height: 100%;
   display: none;
+  grid-template-columns: auto;
 }
 
 /* web */
@@ -643,27 +644,25 @@ img#suicune {
 }
 
 #gg-Web {
-  height: 100%;
+  height: 50%;
   display: none;
+  grid-template-columns: auto;
 }
 
 img#webDesign {
-  width: 350px;
-  grid-template-columns: auto auto;
-  margin-left: 3%;
-  padding-top: 10px;
-  padding-bottom: 7px;
-}
-
-.webContainer {
+  width: 300px;
+  height: auto;
   display: grid;
-  grid-template-columns: auto auto;
+  padding: 1px;
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+  margin: 0 auto;
 }
 
 button.anglersButton {
-  width: 100%;
+  width: 300px;
   height: 30px;
-  margin-left: 1.75%;
+  margin: 0 auto;
   display: block;
   cursor: pointer;
   color: white;
@@ -673,9 +672,9 @@ button.anglersButton {
 }
 
 button.musicmixerButton {
-  width: 100%;
+  width: 300px;
   height: 30px;
-  margin-left: 1.75%;
+  margin: 0 auto;
   display: block;
   cursor: pointer;
   color: white;
@@ -685,9 +684,9 @@ button.musicmixerButton {
 }
 
 button.chatButton {
-  width: 100%;
+  width: 300px;
   height: 30px;
-  margin-left: 1.75%;
+  margin: 0 auto;
   display: block;
   cursor: pointer;
   color: white;
@@ -697,9 +696,9 @@ button.chatButton {
 }
 
 button.ufcButton {
-  width: 100%;
+  width: 300px;
   height: 30px;
-  margin-left: 1.75%;
+  margin: 0 auto;
   display: block;
   cursor: pointer;
   color: white;
@@ -719,7 +718,6 @@ img#uiux {
   width: 300px;
   height: auto;
   display: grid;
-  grid-template-columns: auto auto;
   padding: 1px;
   margin: 0 auto;
   padding: 5px 5px 5px 5px;
@@ -729,6 +727,7 @@ img#uiux {
 #gg-uiux {
   height: 100%;
   display: none;
+  grid-template-columns: auto;
 }
 
 .gg-Social {
@@ -1033,15 +1032,6 @@ a.a_LinkedIn {
   }
 
   // menu
-
-  .hContainer {
-    background-color: rgba(26, 26, 26, 0.9);
-    width: 100%;
-    height: 40px;
-    margin-top: -1px;
-    z-index: 3;
-    position: fixed;
-  }
 
   #menuToggle {
     display: block;
@@ -1618,6 +1608,7 @@ a.a_LinkedIn {
   #gg-Video {
     height: 100%;
     display: none;
+    grid-template-columns: auto auto;
   }
 
   #gg-Video iframe {
@@ -1625,7 +1616,7 @@ a.a_LinkedIn {
     width: 350px;
     padding: 10px 5px 5px 5px;
     margin: 0 auto;
-    display: block;
+    display: grid;
   }
 
   /* //graphic */
@@ -1636,10 +1627,9 @@ a.a_LinkedIn {
   }
 
   img#suicune {
-    width: 400px;
+    width: 300px;
     height: auto;
     display: grid;
-    grid-template-columns: auto auto;
     padding: 1px;
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
@@ -1649,6 +1639,7 @@ a.a_LinkedIn {
   #gg-Graphic {
     height: 100%;
     display: none;
+    grid-template-columns: auto auto;
   }
 
   /* web */
@@ -1661,27 +1652,25 @@ a.a_LinkedIn {
   #gg-Web {
     height: 100%;
     display: none;
+    grid-template-columns: auto auto;
   }
 
   img#webDesign {
-    width: 350px;
-    // grid-template-columns: auto auto;
-    // margin-left: 3%;
-    padding-top: 10px;
-    padding-bottom: 7px;
+    width: 300px;
+    height: auto;
+    display: grid;
+    padding: 1px;
     margin: 0 auto;
-    display: block;
+    padding: 5px 5px 5px 5px;
+    margin: 0 auto;
   }
 
   .webContainer {
-    // display: grid;
-    // grid-template-columns: auto auto;
     display: block;
     margin: 0 auto;
   }
 
   button.anglersButton {
-    width: 50%;
     height: 30px;
     margin: 0 auto;
     display: block;
@@ -1693,7 +1682,6 @@ a.a_LinkedIn {
   }
 
   button.musicmixerButton {
-    width: 50%;
     height: 30px;
     margin: 0 auto;
     display: block;
@@ -1705,7 +1693,6 @@ a.a_LinkedIn {
   }
 
   button.chatButton {
-    width: 50%;
     height: 30px;
     margin: 0 auto;
     display: block;
@@ -1717,7 +1704,6 @@ a.a_LinkedIn {
   }
 
   button.ufcButton {
-    width: 50%;
     height: 30px;
     margin: 0 auto;
     display: block;
@@ -1739,7 +1725,6 @@ a.a_LinkedIn {
     width: 300px;
     height: auto;
     display: grid;
-    grid-template-columns: auto auto;
     padding: 1px;
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
@@ -1749,6 +1734,7 @@ a.a_LinkedIn {
   #gg-uiux {
     height: 100%;
     display: none;
+    grid-template-columns: auto auto;
   }
 
   .gg-Social {
@@ -2027,7 +2013,7 @@ a.a_LinkedIn {
   .hContainer {
     background-color: rgba(26, 26, 26, 0.9);
     width: 100%;
-    height: 8%;
+    height: 6.5%;
     margin-top: -7px;
     z-index: 3;
     position: fixed;
@@ -2187,15 +2173,7 @@ a.a_LinkedIn {
 
   .gg-Intro {
     height: 718px;
-    margin-top: -1318px;
-    background-color: rgba(26, 26, 26, 0.9);
-    z-index: 2;
-    position: relative;
-  }
-
-  .gg-Intro {
-    height: 718px;
-    margin-top: -1318px;
+    margin-top: -1317px;
     background-color: rgba(26, 26, 26, 0.9);
     z-index: 2;
     position: relative;
@@ -2467,8 +2445,9 @@ a.a_LinkedIn {
   }
 
   #gg-Video {
-    height: 100%;
+    height: 50%;
     display: none;
+    grid-template-columns: auto auto;
   }
 
   #gg-Video iframe {
@@ -2476,7 +2455,7 @@ a.a_LinkedIn {
     width: 550px;
     padding: 10px 5px 50px 5px;
     margin: 0 auto;
-    display: block;
+    display: grid;
   }
 
   button.toggle-Video {
@@ -2633,7 +2612,6 @@ a.a_LinkedIn {
     width: 500px;
     height: auto;
     display: grid;
-    grid-template-columns: auto auto;
     padding: 1px;
     margin: 0 auto;
     padding: 5px 5px 20px 5px;
@@ -2641,8 +2619,9 @@ a.a_LinkedIn {
   }
 
   #gg-Graphic {
-    height: 100%;
+    height: auto;
     display: none;
+    grid-template-columns: auto auto;
   }
 
   /* web */
@@ -2655,15 +2634,14 @@ a.a_LinkedIn {
   #gg-Web {
     height: 100%;
     display: none;
-    margin-left: 50%;
+    grid-template-columns: auto auto;
   }
 
   img#webDesign {
-    width: 450px;
-    grid-template-columns: auto auto;
-    margin-left: 3%;
+    width: 70%;
     padding-top: 10px;
     padding-bottom: 7px;
+    display: grid;
   }
 
   .webContainer {
@@ -2672,9 +2650,8 @@ a.a_LinkedIn {
   }
 
   button.anglersButton {
-    width: 96%;
+    width: 70%;
     height: 30px;
-    margin-left: 2.75%;
     display: block;
     cursor: pointer;
     color: white;
@@ -2684,9 +2661,8 @@ a.a_LinkedIn {
   }
 
   button.musicmixerButton {
-    width: 96%;
+    width: 70%;
     height: 30px;
-    margin-left: 2.75%;
     display: block;
     cursor: pointer;
     color: white;
@@ -2696,9 +2672,8 @@ a.a_LinkedIn {
   }
 
   button.chatButton {
-    width: 96%;
+    width: 70%;
     height: 30px;
-    margin-left: 2.75%;
     display: block;
     cursor: pointer;
     color: white;
@@ -2708,9 +2683,8 @@ a.a_LinkedIn {
   }
 
   button.ufcButton {
-    width: 96%;
+    width: 70%;
     height: 30px;
-    margin-left: 2.75%;
     display: block;
     cursor: pointer;
     color: white;
@@ -2730,7 +2704,6 @@ a.a_LinkedIn {
     width: 400px;
     height: auto;
     display: grid;
-    grid-template-columns: auto auto;
     padding: 1px;
     margin: 0 auto;
     padding: 5px 5px 50px 5px;
@@ -2740,6 +2713,7 @@ a.a_LinkedIn {
   #gg-uiux {
     height: 100%;
     display: none;
+    grid-template-columns: auto auto;
   }
 
   .gg-Social {
