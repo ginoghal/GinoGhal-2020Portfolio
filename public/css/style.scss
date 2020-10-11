@@ -2026,13 +2026,21 @@ a.a_LinkedIn {
 }
 
 @media only screen and (min-device-width: 900px) {
-  .hContainer {
+  // .hContainer {
+  //   background-color: rgba(26, 26, 26, 0.9);
+  //   width: 100%;
+  //   height: 6.5%;
+  //   margin-top: -7px;
+  //   z-index: 3;
+  //   position: fixed;
+  // }
+
+  div#logo {
     background-color: rgba(26, 26, 26, 0.9);
     width: 100%;
-    height: 6.5%;
-    margin-top: -7px;
-    z-index: 3;
+    height: 42px;
     position: fixed;
+    z-index: 2;
   }
 
   #menuToggle {
@@ -2171,7 +2179,7 @@ a.a_LinkedIn {
     width: 40px;
     margin-top: 1px;
     margin-left: 80%;
-    z-index: 3;
+    z-index: 2;
     position: fixed;
   }
 
@@ -2191,7 +2199,7 @@ a.a_LinkedIn {
     height: 718px;
     margin-top: -1317px;
     background-color: rgba(26, 26, 26, 0.9);
-    z-index: 2;
+    z-index: 1;
     position: relative;
   }
 
