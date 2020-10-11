@@ -1030,13 +1030,21 @@ a.a_LinkedIn {
 }
 
 @media only screen and (min-device-width: 768px) {
-  .hContainer {
+  // .hContainer {
+  //   background-color: rgba(26, 26, 26, 0.9);
+  //   width: 100%;
+  //   height: 6.5%;
+  //   margin-top: -7px;
+  //   z-index: 3;
+  //   position: fixed;
+  // }
+
+  div#logo {
     background-color: rgba(26, 26, 26, 0.9);
     width: 100%;
-    height: 6.5%;
-    margin-top: -7px;
-    z-index: 3;
+    height: 40px;
     position: fixed;
+    z-index: 2;
   }
 
   // menu
@@ -1173,10 +1181,10 @@ a.a_LinkedIn {
   //logo
   #logo img {
     height: auto;
-    width: 30px;
-    margin-top: 4px;
+    width: 35px;
+    margin-top: 2.5px;
     margin-left: 80%;
-    z-index: 3;
+    z-index: 2;
     position: fixed;
   }
 
@@ -1195,9 +1203,9 @@ a.a_LinkedIn {
 
   .gg-Intro {
     height: 1000px;
-    margin-top: -1580px;
+    margin-top: -1579px;
     background-color: rgba(26, 26, 26, 0.9);
-    z-index: 2;
+    z-index: 1;
     position: relative;
   }
 
