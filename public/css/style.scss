@@ -2200,14 +2200,15 @@ a.a_LinkedIn {
   }
 
   video#videoBackground {
-    height: 800px;
+    // height: 800px;
+    width: 100%;
     margin: -45px auto;
     display: block;
   }
 
   .gg-Intro {
-    height: 718px;
-    margin-top: -1317px;
+    height: 993px;
+    margin-top: -1597px;
     background-color: rgba(26, 26, 26, 0.9);
     z-index: 1;
     position: relative;
